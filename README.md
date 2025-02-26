@@ -1,5 +1,5 @@
 # Backup
- proyecto de backup en Python 
+Proyecto de backup en Python 
 Proyecto de Respaldo Automático en Python
 Este proyecto es una aplicación de respaldo automático desarrollada en Python. Permite a los usuarios seleccionar una carpeta fuente y una carpeta de destino, programar copias de seguridad para una hora específica y realizar copias de seguridad manuales. La aplicación comprime la carpeta fuente en un archivo ZIP, registra cada respaldo en un historial que se muestra en la interfaz gráfica y envía notificaciones al usuario sobre el estado del respaldo.
 Características Principales
@@ -10,6 +10,7 @@ Barra de Progreso: Muestra el avance de la compresión durante el proceso de res
 Historial de Respaldos: Registra cada respaldo en un archivo CSV y muestra el historial en la interfaz.
 Notificaciones: Envía notificaciones al usuario cuando un respaldo se completa o falla.
 Configuración Persistente: Guarda las rutas de las carpetas y la hora programada en un archivo JSON para reutilizarlas en futuras ejecuciones.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Requisitos Previos
 Para ejecutar este proyecto, necesitas lo siguiente:
 Python 3.x: La aplicación requiere una versión 3.x de Python.
@@ -18,20 +19,20 @@ tkinter: Para la interfaz gráfica (generalmente incluida con Python).
 schedule: Para programar tareas.
 plyer: Para enviar notificaciones.
 json y csv: Para manejar archivos de configuración y registro (incluidas en la biblioteca estándar).
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Instalación
 Sigue estos pasos para instalar y preparar el proyecto:
 Clonar el Repositorio:
 git clone https://github.com/foxsolid1/proyecto-backup-python.git
 cd proyecto-backup-python
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Instalar Dependencias:
 Instala las bibliotecas necesarias usando pip:
 bash
 pip install plyer schedule
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Nota: tkinter suele venir incluido con Python. Si no está disponible, consulta la documentación de tu sistema operativo para instalarlo.
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Uso
 Ejecutar la Aplicación:
 Inicia la aplicación ejecutando el siguiente comando en la terminal:
@@ -63,4 +64,4 @@ Los respaldos programados ocurren diariamente a la hora especificada. Para inter
 La aplicación no elimina automáticamente respaldos antiguos; debes gestionarlos manualmente en la carpeta de destino.
 Licencia
 Este proyecto está licenciado bajo la Licencia MIT (LICENSE).
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
